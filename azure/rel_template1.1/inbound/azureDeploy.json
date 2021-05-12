@@ -631,8 +631,8 @@
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2015-01-01",
             "dependsOn": [
-                "Microsoft.Resources/deployments/InboundSetupILB",
-                "Microsoft.Resources/deployments/InboundSetupELB"
+                "Microsoft.Resources/deployments/InboundSetupELB",
+                "Microsoft.Resources/deployments/InboundSetupILB"
             ],
             "properties": {
                 "mode": "Incremental",
